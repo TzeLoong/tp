@@ -61,6 +61,8 @@ public class MyLedger {
             System.out.println("Please try again");
         } catch (NumberFormatException h) {
             System.out.println("Please try again");
+        } catch (ArrayIndexOutOfBoundsException a) {
+            System.out.println("Please try again");
         }
     }
 }
